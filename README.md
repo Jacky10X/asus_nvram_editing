@@ -13,7 +13,7 @@ A successful attach will give you a message such as this:
 
 Next we must create a mount point and mount the UBIFS file system. Note the "5" in ubi5_0 is taken from the device number given in the success message above. Yours may differ, so for example if it says "UBI device number 2" you will be using "ubi2_0" below.
 
-    # mkdir /mountpoint
+    # mkdir ./mountpoint
     # mount -t ubifs ubi5_0 ./mountpoint
 
 Once the correct file system has been mounted, copy nvram.nvm from /mountpoint to your home folder. Change your country code to something else (in my case, I'm changing CA/01 to US/01) with the following command, substituting as required:
