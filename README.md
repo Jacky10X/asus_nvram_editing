@@ -44,9 +44,7 @@ use below command to get the country code.
 Next, locate a folder and create a temp folder in order to modify the country code more easily. (In this case, the path will be /jffs/temp)
 
     # cd /jffs
-    
     # mkdir temp
-    
     # cd /jffs/temp
 
 Use dd to output the /dev/mtd3 file as a bin file. (/dev/mtd3 contains the factory NVRAM values)
