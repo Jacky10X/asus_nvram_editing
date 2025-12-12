@@ -3,6 +3,10 @@
 
 First of all, ssh to the router. (Putty)
 
+use below command to get the country code.
+
+    # nvram get territory_code 
+
 Device /dev/mtd10 is a UBIFS file system that contains only the file nvram.nvm, which contains the default NVRAM values. To access the UBIFS filesystem, we must first attach it to the system using the ubiattach command.
 
     # ubiattach -p /dev/mtd10
