@@ -39,7 +39,7 @@ First of all, ssh to the router. (Putty)
 
 use below command to get the country code.
 
-    #nvram get territory_code 
+    # nvram get territory_code 
 
 Next, locate a folder and create a temp folder in order to modify the country code more easily. (In this case, the path will be /jffs/temp)
 
